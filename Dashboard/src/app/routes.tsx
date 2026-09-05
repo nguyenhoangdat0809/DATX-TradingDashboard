@@ -8,6 +8,7 @@ import MarketHeatmap from "./pages/MarketHeatmap";
 import Journal from "./pages/Journal";
 import StrategyBuilder from "./pages/StrategyBuilder";
 import Settings from "./pages/Settings";
+import Backtest from "./pages/Backtest";
 import Layout from "./components/Layout";
 
 export const router = createBrowserRouter([
@@ -24,6 +25,7 @@ export const router = createBrowserRouter([
       { path: "journal", Component: Journal },
       { path: "strategy-builder", Component: StrategyBuilder },
       { path: "settings", Component: Settings },
+      { path: "backtest", Component: Backtest },
     ],
   },
 ]);

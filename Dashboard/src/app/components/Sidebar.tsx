@@ -1,15 +1,5 @@
 import { NavLink } from "react-router";
-import {
-  LayoutDashboard,
-  TrendingUp,
-  Wallet,
-  Library,
-  Newspaper,
-  Grid3x3,
-  BookOpen,
-  Layers,
-  Settings,
-} from "lucide-react";
+import { LayoutDashboard, TrendingUp, Wallet, Library, Newspaper, Grid3x3, BookOpen, Layers, Settings, ChartLine as LineChart } from "lucide-react";
 import { motion } from "motion/react";
 
 const navItems = [
@@ -21,6 +11,7 @@ const navItems = [
   { icon: Grid3x3, label: "Market Heatmap", path: "/heatmap" },
   { icon: BookOpen, label: "Journal", path: "/journal" },
   { icon: Layers, label: "Strategy Builder", path: "/strategy-builder" },
+  { icon: LineChart, label: "Backtester", path: "/backtest" },
   { icon: Settings, label: "Settings", path: "/settings" },
 ];
 
